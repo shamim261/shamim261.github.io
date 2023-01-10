@@ -1,0 +1,34 @@
+.newsletter {
+  height: 25vh;
+  background-color: $mcolor;
+  color: $wcolor;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  h1 {
+    text-transform: uppercase;
+    font-weight: $fontWLG;
+    line-height: 1.7em;
+  }
+  input[type="email"] {
+    width: 300px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+
+    outline: none;
+    margin-right: 5px;
+  }
+  button {
+    padding: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: $wcolor;
+    color: $mcolor;
+    text-transform: uppercase;
+    font-weight: $fontWMD;
+    margin-right: 30px;
+  }
+}

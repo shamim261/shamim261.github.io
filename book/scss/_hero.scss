@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  background-color: $mcolor;
+  color: $wcolor;
+  height: 80vh;
+  p {
+    padding-top: 20px;
+  }
+}
+.hero-text {
+  display: flex;
+  flex-basis: 70%;
+  flex-direction: column;
+  padding-top: 200px;
+
+  h1 {
+    font-weight: $fontWLG;
+    font-size: 3.2em;
+    text-transform: uppercase;
+  }
+  p {
+    padding-bottom: 50px;
+  }
+}
+.hero-img {
+  padding-top: 165px;
+}
+.heroIMG {
+  height: 375px;
+  width: 375px;
+  display: flex;
+  flex-basis: 30%;
+}
+.hero-btn {
+  font-weight: $fontWMD;
+  background-color: transparent;
+  color: $wcolor;
+  padding: 10px;
+  border: 2px solid $wcolor;
+  border-radius: 35px;
+  cursor: pointer;
+  max-width: 136px;
+  transition: 0.3s;
+  &:hover {
+    background-color: $scolor;
+  }
+}

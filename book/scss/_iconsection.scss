@@ -1,0 +1,25 @@
+.iconSec {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 25vh;
+  background: black;
+  background: linear-gradient(
+      0deg,
+      rgba(16, 2, 11, 0.307),
+      rgba(0, 0, 0, 0.548)
+    ),
+    url(../img/secbg.jpg);
+
+  color: $wcolor;
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  i {
+    padding-right: 20px;
+    font-size: 40px;
+    padding-bottom: 18px;
+  }
+}

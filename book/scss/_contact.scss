@@ -1,0 +1,44 @@
+.contact {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .contactText {
+    h1 {
+      color: $mcolor;
+      font-weight: $fontWLG;
+      font-size: 42px;
+    }
+  }
+  .contactForm {
+    input[type="text"],
+    input[type="email"] {
+      margin-bottom: 25px;
+      width: 350px;
+      padding: 15px;
+      border-radius: 15px;
+      border: 1px solid $mcolor;
+      outline: none;
+    }
+    textarea {
+      border-radius: 15px;
+      border: 1px solid $mcolor;
+      outline: none;
+      &::placeholder {
+        padding-left: 10px;
+      }
+    }
+    input[type="submit"] {
+      width: 348px;
+      padding: 14px;
+      background-color: $mcolor;
+      color: $wcolor;
+      font-weight: $fontWMD;
+      border: none;
+      border-radius: 15px;
+      margin-top: 20px;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+  }
+}

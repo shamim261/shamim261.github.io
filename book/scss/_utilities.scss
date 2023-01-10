@@ -1,0 +1,47 @@
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+$fontWSM: 400;
+$fontWMD: 600;
+$fontWLG: 700;
+
+$mcolor: #27ae60;
+$scolor: #1e884a;
+$bwcolor: #ecf0f1;
+$wcolor: #fff;
+
+body,
+p {
+  font-family: "poppins", "sans-serif";
+  list-style: 1.5em;
+}
+html {
+  scroll-behavior: smooth;
+}
+p {
+  padding: 0 0 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $fontWMD;
+  line-height: 1.2em;
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  @media screen and (min-width: 200px) and (max-width: 768px) {
+    max-width: 96%;
+  }
+}
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
